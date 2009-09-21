@@ -40,7 +40,16 @@ abbr,acronym { border:0;
 }
 
 #container abbr {
-	border-bottom: 1px dotted #000;
+	border-bottom: 1px dotted #F5FFDB;
+}
+
+#container em {
+	font-style: italic;
+}
+
+#container p {
+	color: #F5FFDB;
+	margin-bottom: 15px;
 }
 
 #container h1 {
@@ -48,33 +57,52 @@ abbr,acronym { border:0;
 	margin-bottom: 20px;
 }
 
-#container h1 a {
-	font-size: 1.5em;
-}
-
 #container h2 {
-	margin-top: 20px;
-}
-
-#container h2 {
-	font-size: 1.5em;
+	color: #3E524E;
+	font-size: 4em;
 	font-weight: bold;
 }
 
 #container ul li {
 	display: block;
+	margin-top: 20px;
+	padding: 5px;
+	background-color: #2D3B38;
+}
+
+#container a {
+	color: #CFFC51;
+}
+
+#container a:hover {
+	color: #fff;
+}
+
+#container a.me {
+	padding: 2px 4px;
+	background-color: #2D3B38;
+}
+
+#container a.me:hover {
+	color: #fff;
 }
 
 #container a.project {
 	display: block;
 	padding: 5px;
-	background-color: #1462c1;
-	color: #fff;
+	background-color: #CFFC51;
+	color: #3E524E;
 	margin: 5px 0;
 	font-size: 12px;
 	text-decoration: none;
+	clear: left;
 }
 
 #container a.project:hover {
-	background-color: #3274d0;
+	background-color: #fff;
+}
+
+#container img, #container object {
+	margin: 0 30px 10px 0;
+	float: left;
 }
