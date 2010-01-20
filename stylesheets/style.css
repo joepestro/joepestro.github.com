@@ -1,0 +1,128 @@
+/* reset from http://developer.yahoo.com/yui/reset/ */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* end reset */
+
+#container {
+	font-family: arial;
+	width: 960px;
+	margin: 20px auto;
+	color: #3E524E;
+}
+
+#container abbr {
+	border-bottom: 1px dotted #F5FFDB;
+}
+
+#container em {
+	font-style: italic;
+}
+
+#container p {
+	font-family: lucida grande;
+	font-size: 0.9em;
+	margin-bottom: 15px;
+	line-height: 1.4em;
+}
+
+#container h1 {
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+#container h2 {
+	color: #3E524E;
+	font-size: 3.5em;
+	font-weight: bold;
+	letter-spacing: -0.1em;
+}
+
+#container span {
+	color: #999;
+	float: right;
+	font-weight: bold;
+	font-size: 0.2em;
+	text-transform: uppercase;
+}
+
+#container ul li {
+	display: block;
+	margin-top: 20px;
+	padding: 8px 10px;
+	background-color: #eee;
+	border-bottom: 4px solid #ddd;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#container a {
+	text-decoration: none;
+	padding: 1px 4px;
+	background-color: #3E524E;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#container a:hover {
+	background-color: #ccc;
+}
+
+#container a:hover {
+	color: #fff;
+}
+
+#container a.project {
+	display: block;
+	padding: 5px;
+	background-color: #448eca;
+	color: #fff;
+	margin: 5px 0;
+	font-size: 1.5em;
+	text-decoration: none;
+	clear: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#container a.project:hover {
+	background-color: #449dea;
+	color: #fff;
+}
+
+#container img, #container object {
+	margin: 0 30px 10px 0;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
