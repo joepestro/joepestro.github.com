@@ -8,7 +8,7 @@ document_root  = "~/website.com/"
 deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = ""
+deploy_branch  = "master"
 
 ## -- Misc Configs, you probably have no reason to changes these -- ##
 
